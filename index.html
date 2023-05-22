@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="style.css" />
+		<script src="main.js" defer></script>
+		<title>OTG NotePad</title>
+	</head>
+	<body>
+		<header>
+			<h1>OTG EDITOR</h1>
+			<ul>
+				<li><a id ="home_a" href="#">Home</a></li>
+				<li><a id ="about_a" href="#">About</a></li>
+				<li><a id ="help_a" href="#">Help</a></li>
+				<li><a id ="support_a" href="#">Support</a></li>
+			</ul>
+		</header>
+		<main>
+			<div class="main">
+				<form>
+					<input name="title" placeholder="My title">
+					<textarea placeholder="Start typing..."></textarea>
+				</form>
+				<div class="buttons">
+					<button class="save">Save text</button>
+					<button class="undo">Undo</button>
+					<button class="redo">Redo</button>
+				</div>
+			</div>
+			<div id="more" class="additional">
+				<div id="one" class="page about">
+					<h1>About OTG Editor</h1>
+					<p>Have ever felt like typing something for a draft or to copy it later, but found that opening a text editor is a hard work and all you need is open a new tab to input some text?</p>
+					<p>This is what this editor does. It provides you with a simple plain text editor, for you to copy it later.</p>
+				</div>
+				<div id="two" class="page help">
+					<h1>Do you want to help with some code?</h1>
+					<p>If you support our idea and would like to pull some code into it to add more functionalities, see <a href="">our Github repository</a>.</p>
+				</div>
+				<div id="three" class="page support">
+					<h1>Donate</h1>
+					<p>Other ways of helping us include, among other options <a href="">donating to us</a>.</p>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
